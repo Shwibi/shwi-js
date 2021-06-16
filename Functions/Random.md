@@ -50,7 +50,19 @@ const AnotherObject = {
   },
   __pools: 30
 }
-const randomItem = Random(MyObject, AnotherObject, {__item: ["Or", "Directly", "In", "here"], __pools: 17}, "or a string", "numbers work too", 56, {__item: "Greatest, __pools: 40});
+const randomItem = Random(MyObject, AnotherObject,
+{
+__item: ["Or", "Directly", "In", "here"],
+__pools: 17
+}, 
+"or a string", 
+"numbers work too", 
+56, 
+{
+__item: "Greatest", 
+__pools: 40
+}
+);
 // Returns a random object from the total pool
 
 ```
