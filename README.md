@@ -1,4 +1,4 @@
-# shwi-js @0.0.1-alpha.1
+# shwi-js @0.0.1
 
 [What is shwi-js?](#what-is-shwi-js) \
 [Usage](#usage) \
@@ -28,41 +28,43 @@ Just require the shwi js module, and get to coding!
 
 ## Feature list
 
-Latest update: `0.0.1-alpha.1`
+Latest update: `0.0.1`
 
 1. Main class that can be extended by all your other classes.
 
-- Logging feature
-- Can include all the objects or functions you need in every class
+   Logging feature
+
+   Can include all the objects or functions you need in every class
 
 2. Random item selector
 
-- Input all your items into the Random function and get a random item back!
-- You can also specify particular items to have more chance in being picked!
+   Input all your items into the Random function and get a random item back!
+
+   You can also specify particular items to have more chance in being picked!
 
 3. Random integer from and to
 
-- Get a random integer from specified integer to specified integer!
+   Get a random integer from specified integer to specified integer!
 
 4. Log
 
-- A raw log function if you're not using classes!
+   A raw log function if you're not using classes!
 
 5. Custom error
 
-- Custom errors that are better than normal errors!
-- Includes error ids
-- Includes node.js error automatically
-- Automatically sets the date and time of error
-- Auto-logs (can be turned off for all errors or just one error too)
-- Manual logs
-- JSON errors
+   Custom errors that are better than normal errors!
+   Includes error ids
+   Includes node.js error automatically
+   Automatically sets the date and time of error
+   Auto-logs (can be turned off for all errors or just one error too)
+   Manual logs
+   JSON errors
 
 6. Stack
 
-- Better collection type! All items pushed to the top, and you can pop off the top item and get it back!
-- You can specify particular items if you only want some particular type of items in a stack
-- Create your own custom stacks by extending this!
+   Better collection type! All items pushed to the top, and you can pop off the top item and get it back!
+   You can specify particular items if you only want some particular type of items in a stack
+   Create your own custom stacks by extending this!
 
 ## Main class
 

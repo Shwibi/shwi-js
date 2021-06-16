@@ -38,33 +38,33 @@ You can use an object `{}` to specify the pools each item would have. Along with
 inside the object as such:
 
 ```js
-
 const MyObject = {
-  __item: "This is an item",
-  __pools: 10
-}
+	__item: "This is an item",
+	__pools: 10,
+};
 const AnotherObject = {
-  __item: {
-    name: "Look!",
-    description: "I am speed!"
-  },
-  __pools: 30
-}
-const randomItem = Random(MyObject, AnotherObject,
-{
-__item: ["Or", "Directly", "In", "here"],
-__pools: 17
-}, 
-"or a string", 
-"numbers work too", 
-56, 
-{
-__item: "Greatest", 
-__pools: 40
-}
+	__item: {
+		name: "Look!",
+		description: "I am speed!",
+	},
+	__pools: 30,
+};
+const randomItem = Random(
+	MyObject,
+	AnotherObject,
+	{
+		__item: ["Or", "Directly", "In", "here"],
+		__pools: 17,
+	},
+	"or a string",
+	"numbers work too",
+	56,
+	{
+		__item: "Greatest",
+		__pools: 40,
+	}
 );
 // Returns a random object from the total pool
-
 ```
 
 Here, `MyObject` has a 10/total pool chance. The total pool here is (10 + 30 + 17 + 1 + 1 + 1 + 40) = 100. So `MyObject` has
