@@ -14,7 +14,7 @@
 npm i shwi-js
 ```
 
-## What is super-js?
+## What is shwi-js?
 
 Shwi-js is an easy to use npm module that allows you to make your javascript code better! It makes many things easier, and has many new classes and functions that are usually very annoying to code!
 
