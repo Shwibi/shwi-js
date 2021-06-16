@@ -3,7 +3,7 @@
 The `Err` class is a better way to create errors! It has all the properties of a normal error, and more!
 
 ```js
-const { Err } = require("@shwi/super-js");
+const { Err } = require("shwi-js");
 
 new Err("My leg is missing!", "LEG_CODE", { leg: "missing" });
 // All of these properties are optional
@@ -28,7 +28,7 @@ The error object is just a plain object containing more information about the er
 The `log()` method on an error logs the error to the console.
 
 ```js
-const { Err } = require("@shwi/super-js");
+const { Err } = require("shwi-js");
 const error = new Err("Error!", "ERR", { dont_log: true });
 error.log();
 // Logs the error to the console along with all the details
@@ -62,7 +62,7 @@ The `info` get method returns an object with all the error info:
   resolved: Boolean
 }
 
-const { Err } = require("@shwi/super-js");
+const { Err } = require("shwi-js");
 const error = new Err("error", "ERR", {dont_log: true});
 const errorInfo = error.info;
 ```
@@ -76,10 +76,10 @@ The `resolve()`method resolves the error. This calls the callback function speci
 The `onResolve(Function)` method takes in a function that will be called when the error is resolved.
 
 ```js
-const superjs = require("@shwi/super-js");
-const error = new superjs.Err("Error!", "ERR", { dont_log: true });
+const shwijs = require("shwi-js");
+const error = new shwijs.Err("Error!", "ERR", { dont_log: true });
 error.onResolve(() => {
-	superjs.Log("Error resolved!");
+	shwijs.Log("Error resolved!");
 });
 ```
 

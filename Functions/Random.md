@@ -1,7 +1,7 @@
 # Random
 
 ```js
-const { Random, RandomItem } = require("@shwi/super-js");
+const { Random, RandomItem } = require("shwi-js");
 ```
 
 ## Random(...): Items

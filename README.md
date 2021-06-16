@@ -1,6 +1,6 @@
-# @shwi/super-js @0.0.1-alpha.1
+# shwi-js @0.0.1-alpha.1
 
-[What is super-js?](#what-is-super-js) \
+[What is shwi-js?](#what-is-shwi-js) \
 [Usage](#usage) \
 [Feature List](#feature-list) \
 [Main class](#main-class) \
@@ -11,20 +11,20 @@
 ## Installation
 
 ```
-npm i @shwi/super-js
+npm i shwi-js
 ```
 
 ## What is super-js?
 
-Super-js is an easy to use npm module that allows you to make your javascript code better! It makes many things easier, and has many new classes and functions that are usually very annoying to code!
+Shwi-js is an easy to use npm module that allows you to make your javascript code better! It makes many things easier, and has many new classes and functions that are usually very annoying to code!
 
 ## Usage
 
 ```js
-const superjs = require("@shwi/super-js");
+const shwijs = require("shwi-js");
 ```
 
-Just require the super js module, and get to coding!
+Just require the shwi js module, and get to coding!
 
 ## Feature list
 
@@ -67,8 +67,8 @@ Latest update: `0.0.1-alpha.1`
 ## Main class
 
 ```js
-const superjs = require("@shwi/super-js");
-class MyClass extends superjs.Main {
+const shwijs = require("shwi-js");
+class MyClass extends shwijs.Main {
 	constructor() {
 		super("MyClass");
 		this.Log("Hello!");
@@ -78,14 +78,14 @@ const myClassInstance = new MyClass();
 // Logs [Node/your_project_name/MyClass]: Hello to the console
 ```
 
-To change the project name, you can do `superjs.Main.APP_NAME = "whatever you want"`!
+To change the project name, you can do `shwijs.Main.APP_NAME = "whatever you want"`!
 (By default, it takes the project name from your package.json file)
 
 You can also pass in multiple names for the class `super()` function, if you're making class that is supposed to be part of another class:
 
 ```js
-const superjs = require("@shwi/super-js");
-class MyClass extends superjs.Main {
+const shwijs = require("shwi-js");
+class MyClass extends shwijs.Main {
 	constructor(name) {
 		super("MyClass", name);
 	}

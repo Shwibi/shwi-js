@@ -1,17 +1,17 @@
 {
-	"name": "@shwi/super-js",
+	"name": "shwi-js",
 	"version": "0.0.1-alpha.1",
-	"description": "A way to make js super js with extra modules and better things!",
+	"description": "A way to make js shwi js with extra modules and better things!",
 	"main": "index.js",
 	"scripts": {
 		"test": "jest --watchAll --verbose"
 	},
 	"keywords": [
-		"superjs",
-		"super",
-		"supermod"
+		"shwijs",
+		"shwi",
+		"shwimod"
 	],
-	"author": "shwi",
+	"author": "Shwibi",
 	"license": "ISC",
 	"dependencies": {
 		"app-root-path": "^3.0.0"

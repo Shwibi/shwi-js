@@ -7,7 +7,7 @@ Stack is a better collection system for all your items! Well, kind of. It's basi
 Create a new stack using a constructor:
 
 ```js
-const { Stack } = require("@shwi/super-js");
+const { Stack } = require("shwi-js");
 new Stack("My stack");
 ```
 
