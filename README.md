@@ -1,6 +1,6 @@
 # @shwi/super-js @0.0.1-alpha.1
 
-[What is @shwi/super-js?](#what-is-@shwi/super-js) \
+[What is super-js?](#what-is-super-js) \
 [Usage](#usage) \
 [Feature List](#feature-list) \
 [Main class](#main-class) \
@@ -14,7 +14,7 @@
 npm i @shwi/super-js
 ```
 
-## What is @shwi/super-js?
+## What is super-js?
 
 Super-js is an easy to use npm module that allows you to make your javascript code better! It makes many things easier, and has many new classes and functions that are usually very annoying to code!
 
