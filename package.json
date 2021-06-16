@@ -19,5 +19,11 @@
 	"devDependencies": {
 		"@types/jest": "^26.0.23",
 		"jest": "^27.0.4"
+	},
+	"repository": {
+		"url": "https://github.com/Shwibi/super-js"
+	},
+	"bugs": {
+		"url": "https://github.com/Shwibi/super-js/issues"
 	}
 }
