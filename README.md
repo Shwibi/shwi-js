@@ -1,6 +1,6 @@
-# super-js @0.0.1-alpha.1
+# @shwi/super-js @0.0.1-alpha.1
 
-[What is super-js?](#what-is-super-js) \
+[What is @shwi/super-js?](#what-is-@shwi/super-js) \
 [Usage](#usage) \
 [Feature List](#feature-list) \
 [Main class](#main-class) \
@@ -11,17 +11,17 @@
 ## Installation
 
 ```
-npm i super-js
+npm i @shwi/super-js
 ```
 
-## What is super-js?
+## What is @shwi/super-js?
 
 Super-js is an easy to use npm module that allows you to make your javascript code better! It makes many things easier, and has many new classes and functions that are usually very annoying to code!
 
 ## Usage
 
 ```js
-const superjs = require("super-js");
+const superjs = require("@shwi/super-js");
 ```
 
 Just require the super js module, and get to coding!
@@ -67,7 +67,7 @@ Latest update: `0.0.1-alpha.1`
 ## Main class
 
 ```js
-const superjs = require("super-js");
+const superjs = require("@shwi/super-js");
 class MyClass extends superjs.Main {
 	constructor() {
 		super("MyClass");
@@ -84,7 +84,7 @@ To change the project name, you can do `superjs.Main.APP_NAME = "whatever you wa
 You can also pass in multiple names for the class `super()` function, if you're making class that is supposed to be part of another class:
 
 ```js
-const superjs = require("super-js");
+const superjs = require("@shwi/super-js");
 class MyClass extends superjs.Main {
 	constructor(name) {
 		super("MyClass", name);

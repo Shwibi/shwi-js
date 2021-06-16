@@ -1,5 +1,9 @@
 # Random
 
+```js
+const { Random, RandomItem } = require("@shwi/super-js");
+```
+
 ## Random(...): Items
 
 You can use the `Random(...)` function to get a random object out of the given objects! \

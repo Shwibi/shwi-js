@@ -1,5 +1,5 @@
 {
-	"name": "super-js",
+	"name": "@shwi/super-js",
 	"version": "0.0.1-alpha.1",
 	"description": "A way to make js super js with extra modules and better things!",
 	"main": "index.js",
@@ -11,7 +11,7 @@
 		"super",
 		"supermod"
 	],
-	"author": "Shwibi",
+	"author": "shwi",
 	"license": "ISC",
 	"dependencies": {
 		"app-root-path": "^3.0.0"
