@@ -1,4 +1,4 @@
-# shwi-js @0.0.1
+# shwi-js @0.0.2
 
 [What is shwi-js?](#what-is-shwi-js) \
 [Usage](#usage) \
@@ -6,7 +6,8 @@
 [Main class](#main-class) \
 [Random^](./Functions/Random.md) \
 [Err^](./Utils/Err.md) \
-[Stack^](./Stack/Stack.md)
+[Stack^](./Stack/Stack.md) \
+[Colors^](./Props/Color.md)
 
 ## Installation
 
@@ -28,18 +29,16 @@ Just require the shwi js module, and get to coding!
 
 ## Feature list
 
-Latest update: `0.0.1`
+Latest update: `0.0.2`
 
 1. Main class that can be extended by all your other classes.
 
-   Logging feature
-
+   Logging feature \
    Can include all the objects or functions you need in every class
 
 2. Random item selector
 
-   Input all your items into the Random function and get a random item back!
-
+   Input all your items into the Random function and get a random item back! \
    You can also specify particular items to have more chance in being picked!
 
 3. Random integer from and to
@@ -52,19 +51,24 @@ Latest update: `0.0.1`
 
 5. Custom error
 
-   Custom errors that are better than normal errors!
-   Includes error ids
-   Includes node.js error automatically
-   Automatically sets the date and time of error
-   Auto-logs (can be turned off for all errors or just one error too)
+   Custom errors that are better than normal errors! \
+   Includes error ids \
+   Includes node.js error automatically \
+   Automatically sets the date and time of error \
+   Auto-logs (can be turned off for all errors or just one error too) \
    Manual logs
    JSON errors
 
 6. Stack
 
-   Better collection type! All items pushed to the top, and you can pop off the top item and get it back!
-   You can specify particular items if you only want some particular type of items in a stack
+   Better collection type! All items pushed to the top, and you can pop off the top item and get it back! \
+   You can specify particular items if you only want some particular type of items in a stack \
    Create your own custom stacks by extending this!
+
+7. Colors
+
+   Ability to colorize a string of text! You can format a string in any way, and it will be logged that way in the console! \
+   You can also access the `shwijs#Colors` object to customise a string in your own way!
 
 ## Main class
 

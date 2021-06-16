@@ -15,6 +15,8 @@ const IsEven = require("./Functions/Checks/IsEven");
 
 const Log = require("./Functions/Log");
 
+const ColorProps = require("./Props/Colors");
+
 module.exports = {
 	Main,
 	Err,
@@ -25,4 +27,6 @@ module.exports = {
 	IsOdd,
 	IsEven,
 	Log,
+	Colors: ColorProps.Colors,
+	Colorize: ColorProps.colorize,
 };
