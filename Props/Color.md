@@ -1,6 +1,6 @@
 # Colors
 
-Use Colors to colorize your console output! The usage pis pretty easy:
+Use Colors to colorize your console output! The usage is pretty easy:
 
 ```js
 const shwijs = require("shwi-js");
