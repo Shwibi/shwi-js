@@ -1,18 +1,4 @@
-# shwi-js @0.0.3-alpha.2
-
----
-
-## All updates are also on wiki.
-
-[What is shwi-js?](#what-is-shwi-js) \
-[Usage](#usage) \
-[Feature List](#feature-list) \
-[Main class](#main-class) \
-[Random^](./Functions/Random.md) \
-[Err^](./Utils/Err.md) \
-[Stack^](./Stack/Stack.md) \
-[Colors^](./Props/Color.md) \
-[Parser^](./Sandbox/Parser.md)
+# shwi-js @0.0.3
 
 ## Installation
 
@@ -34,7 +20,7 @@ Just require the shwi js module, and get to coding!
 
 ## Feature list
 
-Latest update: `0.0.3-alpha.2`
+Latest update: `0.0.3`
 
 1. Main class that can be extended by all your other classes.
 
@@ -45,13 +31,11 @@ Latest update: `0.0.3-alpha.2`
 2. Random item selector
 
    Input all your items into the Random function and get a random item back! \
-   You can also specify particular items to have more chance in being picked! \
-   [View docs](./Functions/Random.md)
+   You can also specify particular items to have more chance in being picked!
 
 3. Random integer from and to
 
-   Get a random integer from specified integer to specified integer! \
-   [View docs](./Functions/Random.md)
+   Get a random integer from specified integer to specified integer!
 
 4. Log
 
@@ -65,26 +49,22 @@ Latest update: `0.0.3-alpha.2`
    Automatically sets the date and time of error \
    Auto-logs (can be turned off for all errors or just one error too) \
    Manual logs \
-   JSON errors \
-   [View docs](./Utils/Err.md)
+   JSON errors
 
 6. Stack
 
    Better collection type! All items pushed to the top, and you can pop off the top item and get it back! \
    You can specify particular items if you only want some particular type of items in a stack \
-   Create your own custom stacks by extending this! \
-   [View docs](./Stack/Stack.md)
+   Create your own custom stacks by extending this!
 
 7. Colors
 
    Ability to colorize a string of text! You can format a string in any way, and it will be logged that way in the console! \
-   You can also access the `shwijs#Colors` object to customise a string in your own way! \
-   [View docs](./Props/Color.md)
+   You can also access the `shwijs#Colors` object to customise a string in your own way!
 
 8. Parser
 
-   Create a new, easy to store storage file `.sjs`! No quotations involved, no curly brackets, just plain storage! \
-   [View docs](./Sandbox/Parser.md)
+   Create a new, easy to store storage file `.sjs`! No quotations involved, no curly brackets, just plain storage!
 
 ## Main class
 

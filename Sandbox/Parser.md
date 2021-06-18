@@ -2,7 +2,7 @@
 
 `Introduced in 0.0.3-alpha.1`
 
-The new parser is **unstable** parsing utility that allows you to store data in `sjs` files. It is very simple and does not require strings. It can be used to store and maintain lightweight variables such as strings, numbers, and one dimensional arrays.
+The new parser is a parsing utility that allows you to store data in `sjs` files. It is very simple and does not require strings. It can be used to store and maintain lightweight variables such as strings, numbers, and one dimensional arrays.
 
 ## Storing sjs
 
@@ -20,13 +20,17 @@ age = 666;
 friends: [none, at, all];
 ```
 
-## Parsing sjs
+## Parsing sjs (Parser.Parse(Err, Function))
 
-To parse sjs, just use the `Parser` (static) class. It is marked as depracated but so far, if you have followed the 4 golden rules, it should work.
+To parse sjs, just use the `Parser` (static) class. If you have followed the 4 golden rules, it should work. \
+`Parser.Parse(path, callback)`
 
 ```js
 const { Sandbox } = require("shwi-js");
-const parsed_data = Sandbox.Parser.Parse("absolute path to file");
+Sandbox.Parser.Parse("absolute path to file", function(error, dataObject) {
+  if(error) return console.log(error);
+  console.log(dataObject);
+});
 // Parsed data will be a javascript object
 {
   my_name: "Shwibi",
