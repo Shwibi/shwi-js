@@ -29,4 +29,7 @@ module.exports = {
 	Log,
 	Colors: ColorProps.Colors,
 	Colorize: ColorProps.colorize,
+	Sandbox: {
+		parser: require("./Sandbox/storageParser"),
+	},
 };
