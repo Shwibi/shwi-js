@@ -1,4 +1,4 @@
-# shwi-js @0.0.2
+# shwi-js @0.0.3-alpha.1
 
 [What is shwi-js?](#what-is-shwi-js) \
 [Usage](#usage) \
@@ -29,7 +29,7 @@ Just require the shwi js module, and get to coding!
 
 ## Feature list
 
-Latest update: `0.0.2`
+Latest update: `0.0.3-alpha.1`
 
 1. Main class that can be extended by all your other classes.
 
