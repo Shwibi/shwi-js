@@ -24,8 +24,6 @@ const RESERVED_LIST = RESERVED.toLowerCase().split(/\s/);
 
 /**
  * @static Static class
- * @deprecated Under construction. Use JSON for storage instead
- * @use JSON
  */
 class Parser {
 	static RESERVED_LIST = RESERVED_LIST;
