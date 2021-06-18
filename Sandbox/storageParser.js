@@ -28,6 +28,7 @@ const RESERVED_LIST = RESERVED.toLowerCase().split(/\s/);
  * @use JSON
  */
 class Parser {
+	static RESERVED_LIST = RESERVED_LIST;
 	constructor() {}
 	/**
 	 *
@@ -70,7 +71,7 @@ class Parser {
 						);
 					const equals = line.split("=");
 					const fieldName = equals[0].split(/\s/)[0].trim();
-					if (RESERVED_LIST.includes(fieldName.toLowerCase())) {
+					if (Parser.RESERVED_LIST.includes(fieldName.toLowerCase())) {
 						callback(
 							new Err("Field name cannot be reserved name!", "INVFLDNM", {
 								fieldName,

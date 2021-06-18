@@ -1,4 +1,4 @@
-# shwi-js @0.0.3-alpha.1
+# shwi-js @0.0.3-alpha.2
 
 [What is shwi-js?](#what-is-shwi-js) \
 [Usage](#usage) \
@@ -7,7 +7,8 @@
 [Random^](./Functions/Random.md) \
 [Err^](./Utils/Err.md) \
 [Stack^](./Stack/Stack.md) \
-[Colors^](./Props/Color.md)
+[Colors^](./Props/Color.md) \
+[Parser^](./Sandbox/Parser.md)
 
 ## Installation
 
@@ -29,21 +30,24 @@ Just require the shwi js module, and get to coding!
 
 ## Feature list
 
-Latest update: `0.0.3-alpha.1`
+Latest update: `0.0.3-alpha.2`
 
 1. Main class that can be extended by all your other classes.
 
    Logging feature \
-   Can include all the objects or functions you need in every class
+   Can include all the objects or functions you need in every class \
+   [View docs](#main-class)
 
 2. Random item selector
 
    Input all your items into the Random function and get a random item back! \
-   You can also specify particular items to have more chance in being picked!
+   You can also specify particular items to have more chance in being picked! \
+   [View docs](./Functions/Random.md)
 
 3. Random integer from and to
 
-   Get a random integer from specified integer to specified integer!
+   Get a random integer from specified integer to specified integer! \
+   [View docs](./Functions/Random.md)
 
 4. Log
 
@@ -56,19 +60,27 @@ Latest update: `0.0.3-alpha.1`
    Includes node.js error automatically \
    Automatically sets the date and time of error \
    Auto-logs (can be turned off for all errors or just one error too) \
-   Manual logs
-   JSON errors
+   Manual logs \
+   JSON errors \
+   [View docs](./Utils/Err.md)
 
 6. Stack
 
    Better collection type! All items pushed to the top, and you can pop off the top item and get it back! \
    You can specify particular items if you only want some particular type of items in a stack \
-   Create your own custom stacks by extending this!
+   Create your own custom stacks by extending this! \
+   [View docs](./Stack/Stack.md)
 
 7. Colors
 
    Ability to colorize a string of text! You can format a string in any way, and it will be logged that way in the console! \
-   You can also access the `shwijs#Colors` object to customise a string in your own way!
+   You can also access the `shwijs#Colors` object to customise a string in your own way! \
+   [View docs](./Props/Color.md)
+
+8. Parser
+
+   Create a new, easy to store storage file `.sjs`! No quotations involved, no curly brackets, just plain storage! \
+   [View docs](./Sandbox/Parser.md)
 
 ## Main class
 
