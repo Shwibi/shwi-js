@@ -1,5 +1,7 @@
 # shwi-js @0.0.3
 
+All updates and documentation on the [Wiki](https://github.com/Shwibi/shwi-js/wiki)
+
 ## Installation
 
 ```
