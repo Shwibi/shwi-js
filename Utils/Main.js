@@ -1,5 +1,6 @@
 // Main class (extended by all classes)
 const app_root = require("app-root-path");
+const Colors = require("../Props/Colors");
 class Main {
 	// Default app name
 	static APP_NAME = require(app_root + "/package.json").name;
@@ -19,6 +20,10 @@ class Main {
 
 		// Set the name of the class, which will be used in logging
 		this.name = `${Main.APP_NAME}${final_name}`;
+		this.colored_name = Colors.colorize(
+			`[${Main.APP_NAME}]${final_name}]:`,
+			"yellow"
+		);
 	}
 
 	/**
@@ -28,7 +33,7 @@ class Main {
 	 */
 	Log(...args) {
 		args = args ?? [""];
-		console.log(`[Node/${this.name}]:`, ...args);
+		console.log(this.colored_name, ...args);
 	}
 
 	/**

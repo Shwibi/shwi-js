@@ -7,3 +7,6 @@ package.lock.json
 # Ignore config files
 jsconfig.json
 node_modules
+
+# Ignores
+ignore.*

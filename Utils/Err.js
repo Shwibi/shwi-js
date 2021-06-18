@@ -24,7 +24,7 @@ class Err extends Main {
 		this.message = message;
 
 		if (!(details instanceof Object))
-			return new Err("Details must be an object!", "INVALID_DETAILS");
+			return new Err("Details must be an object!", "INVDET");
 
 		let date = new Date();
 		details.at = date;

@@ -14,16 +14,17 @@
 	"author": "Shwibi",
 	"license": "ISC",
 	"dependencies": {
-		"app-root-path": "^3.0.0"
+		"app-root-path": "^3.0.0",
+		"fs": "0.0.1-security"
 	},
 	"devDependencies": {
 		"@types/jest": "^26.0.23",
 		"jest": "^27.0.4"
 	},
 	"repository": {
-		"url": "https://github.com/Shwibi/super-js"
+		"url": "https://github.com/Shwibi/shwi-js"
 	},
 	"bugs": {
-		"url": "https://github.com/Shwibi/super-js/issues"
+		"url": "https://github.com/Shwibi/shwi-js/issues"
 	}
 }
