@@ -1,5 +1,9 @@
 # shwi-js @0.0.3-alpha.2
 
+---
+
+## All updates are also on wiki.
+
 [What is shwi-js?](#what-is-shwi-js) \
 [Usage](#usage) \
 [Feature List](#feature-list) \
