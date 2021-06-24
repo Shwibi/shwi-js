@@ -100,9 +100,3 @@ class Parser {
 }
 
 module.exports = Parser;
-
-//testing
-Parser.Parse("./storage.sjs", (err, data) => {
-	if (err) return console.log(err);
-	console.log({data});
-})
