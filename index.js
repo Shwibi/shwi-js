@@ -1,7 +1,7 @@
 // Index file
 // All the things will be exported from here
 const Main = require("./Utils/Main");
-
+const Tank = require("./Utils/Tank");
 const Err = require("./Utils/Err");
 
 const Stack = require("./Stack/Stack");
@@ -16,6 +16,10 @@ const IsEven = require("./Functions/Checks/IsEven");
 const Log = require("./Functions/Log");
 
 const ColorProps = require("./Props/Colors");
+const RemoveReservedCharacters = require("./Functions/RemoveReservedCharacters");
+const ReservedCharacters = require("./Props/ReservedCharacters");
+const ReservedWordsArray = require("./Props/ReservedWords");
+const SqueezeString = require("./Functions/SqueezeString");
 
 module.exports = {
 	Main,
@@ -32,4 +36,9 @@ module.exports = {
 	Sandbox: {
 		parser: require("./Sandbox/storageParser"),
 	},
+	Tank,
+	RemoveReservedCharacters,
+	ReservedCharacters,
+	ReservedWordsArray,
+	SqueezeString
 };

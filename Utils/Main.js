@@ -43,6 +43,16 @@ class Main {
 	static SetAppName(name = Main.APP_NAME) {
 		Main.APP_NAME = name;
 	}
+
+	/**
+	 * Raw log function (x1) Logs using custom subset of logs [name/your_subset_here]: ...data
+	 * @param {String} name_subset Subset of the name you want to log with
+	 * @param  {...any} args Data
+	 */
+	RawLog({name_subset, color = "yellow", args}) {
+		args = args ?? [""];
+		console.log(Colors.colorize(`[${this.name}/${name_subset}]:`, color, "Bright"), ...args);
+	}
 }
 
 // Export Main class

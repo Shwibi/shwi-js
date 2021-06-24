@@ -1,33 +1,18 @@
 const fs = require("fs");
 const readline = require("readline");
+const RemoveReservedCharacters = require("../Functions/RemoveReservedCharacters");
+const SqueezeString = require("../Functions/SqueezeString");
+const ReservedCharacters = require("../Props/ReservedCharacters");
+const RESERVED_WORDS_ARRAY = require("../Props/ReservedWords");
 const Err = require("../Utils/Err");
-
-const RESERVED = `
-abstract	arguments	await	boolean
-break	byte	case	catch
-char	class	const	continue
-debugger	default	delete	do
-double	else	enum	eval
-export	extends	false	final
-finally	float	for	function
-goto	if	implements	import
-in	instanceof	int	interface
-let	long	native	new
-null	package	private	protected
-public	return	short	static
-super	switch	synchronized	this
-throw	throws	transient	true
-try	typeof	var	void
-volatile	while	with	yield
-`;
-const RESERVED_LIST = RESERVED.toLowerCase().split(/\s/);
 
 /**
  * @static Static class
  */
 class Parser {
-	static RESERVED_LIST = RESERVED_LIST;
-	constructor() {}
+	constructor() {
+		throw new Err("Parser is a static class! Cannot create a new one!", "PARSER_STATIC").as_json;
+	}
 	/**
 	 *
 	 * @param {String} path Path to the storage.sjs file
@@ -68,16 +53,17 @@ class Parser {
 							null
 						);
 					const equals = line.split("=");
-					const fieldName = equals[0].split(/\s/)[0].trim();
-					if (Parser.RESERVED_LIST.includes(fieldName.toLowerCase())) {
+					const fieldName = RemoveReservedCharacters(SqueezeString(equals[0]));
+					if (RESERVED_WORDS_ARRAY.includes(fieldName.toLowerCase())) {
+						const fieldNameErr = new Err("Field name cannot be reserved name!", "INVFLDNM", {
+							fieldName,
+							dont_log: true,
+						});
 						callback(
-							new Err("Field name cannot be reserved name!", "INVFLDNM", {
-								fieldName,
-								dont_log: true,
-							}),
+							fieldNameErr,
 							null
 						);
-						return;
+						throw fieldNameErr;
 					}
 					const fieldVal = equals[1]
 						.trim()
@@ -114,3 +100,9 @@ class Parser {
 }
 
 module.exports = Parser;
+
+//testing
+Parser.Parse("./storage.sjs", (err, data) => {
+	if (err) return console.log(err);
+	console.log({data});
+})
