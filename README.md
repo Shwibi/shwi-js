@@ -1,4 +1,4 @@
-# shwi-js @0.0.4-alpha.6
+# shwi-js @0.0.4
 
 All updates and documentation on the [Wiki](https://github.com/Shwibi/shwi-js/wiki). Please refer to the wiki for latest updated docs.
 
@@ -22,7 +22,7 @@ Just require the shwi js module, and get to coding!
 
 ## Feature list
 
-Latest feature update: `0.0.4-alpha.2`
+Latest feature update: `0.0.4`
 
 1. Main class that can be extended by all your other classes. `shwijs#Main`
 
