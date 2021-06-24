@@ -33,11 +33,13 @@ Latest update: `0.0.4-alpha.2`
 2. Random item selector `shwijs#Random`
 
    Input all your items into the Random function and get a random item back! \
-   You can also specify particular items to have more chance in being picked!
+   You can also specify particular items to have more chance in being picked! \
+   [View docs](https://github.com/Shwibi/shwi-js/wiki/Random)
 
 3. Random integer from and to `shwijs#RandomInt`
 
-   Get a random integer from specified integer to specified integer!
+   Get a random integer from specified integer to specified integer! \
+   [View docs](https://github.com/Shwibi/shwi-js/wiki/Random)
 
 4. Log `shwijs#Log`
 
@@ -51,23 +53,27 @@ Latest update: `0.0.4-alpha.2`
    Automatically sets the date and time of error \
    Auto-logs (can be turned off for all errors or just one error too) \
    Manual logs \
-   JSON errors
+   JSON errors \
+   [View docs](https://github.com/Shwibi/shwi-js/wiki/Error)
 
 6. Stack `shwijs#Stack`
 
    Better collection type! All items pushed to the top, and you can pop off the top item and get it back! \
    You can specify particular items if you only want some particular type of items in a stack \
-   Create your own custom stacks by extending this!
+   Create your own custom stacks by extending this! \
+   [View docs](https://github.com/Shwibi/shwi-js/wiki/Stack)
 
 7. Colors `shwijs#Colors`
 
    Ability to colorize a string of text! You can format a string in any way, and it will be logged that way in the console! \
-   You can also access the `shwijs#Colors` object to customise a string in your own way!
+   You can also access the `shwijs#Colors` object to customise a string in your own way! \
+   [View docs](https://github.com/Shwibi/shwi-js/wiki/Colors)
 
 8. Parser `shwijs#Parser`
 
    Create a new, easy to store storage file `.sjs`! No quotations involved, no curly brackets, just plain storage! \
-   Now with the ability to squeeze string automatically, you can have spaces and it will convert them to capitalized object names!
+   Now with the ability to squeeze string automatically, you can have spaces and it will convert them to capitalized object names! \
+   [View docs](https://github.com/Shwibi/shwi-js/wiki/Parser)
 
 9. Tank (Collection Storage) `shwijs#Tank`
 
@@ -75,7 +81,8 @@ Latest update: `0.0.4-alpha.2`
    Ability to set and get values. \
    Ability to push to the top and pop from the top. \
    Cache messages and log messages (colored in console) to keep track of things. \
-   Does all the hard work like removing spaces and capitalizing key values for you!
+   Does all the hard work like removing spaces and capitalizing key values for you! \
+   [View docs](https://github.com/Shwibi/shwi-js/wiki/Tank)
 
 ## Props
 
