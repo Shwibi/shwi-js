@@ -1,6 +1,6 @@
-# shwi-js @0.0.4-alpha.4
+# shwi-js @0.0.4-alpha.5
 
-All updates and documentation on the [Wiki](https://github.com/Shwibi/shwi-js/wiki)
+All updates and documentation on the [Wiki](https://github.com/Shwibi/shwi-js/wiki). Please refer to the wiki for latest updated docs.
 
 ## Installation
 
