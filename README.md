@@ -69,7 +69,7 @@ Latest feature update: `0.0.4-alpha.2`
    You can also access the `shwijs#Colors` object to customise a string in your own way! \
    [View docs](https://github.com/Shwibi/shwi-js/wiki/Colors)
 
-8. Parser `shwijs#Parser`
+8. Parser `shwijs#Sandbox#parser`
 
    Create a new, easy to store storage file `.sjs`! No quotations involved, no curly brackets, just plain storage! \
    Now with the ability to squeeze string automatically, you can have spaces and it will convert them to capitalized object names! \
