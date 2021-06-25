@@ -21,7 +21,7 @@ class Main {
 		// Set the name of the class, which will be used in logging
 		this.name = `${Main.APP_NAME}${final_name}`;
 		this.colored_name = Colors.colorize(
-			`[${Main.APP_NAME}]${final_name}]:`,
+			`[${Main.APP_NAME}${final_name}]:`,
 			"yellow"
 		);
 	}

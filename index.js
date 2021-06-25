@@ -13,13 +13,14 @@ const IsInteger = require("./Functions/Checks/IsInteger");
 const IsOdd = require("./Functions/Checks/IsOdd");
 const IsEven = require("./Functions/Checks/IsEven");
 
+const SqueezeString = require("./Functions/SqueezeString");
+const RemoveReservedCharacters = require("./Functions/RemoveReservedCharacters");
 const Log = require("./Functions/Log");
+const Kill = require("./Functions/Kill");
 
 const ColorProps = require("./Props/Colors");
-const RemoveReservedCharacters = require("./Functions/RemoveReservedCharacters");
 const ReservedCharacters = require("./Props/ReservedCharacters");
 const ReservedWordsArray = require("./Props/ReservedWords");
-const SqueezeString = require("./Functions/SqueezeString");
 
 module.exports = {
 	Main,
@@ -40,5 +41,6 @@ module.exports = {
 	RemoveReservedCharacters,
 	ReservedCharacters,
 	ReservedWordsArray,
-	SqueezeString
+	SqueezeString,
+	Kill
 };
