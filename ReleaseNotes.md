@@ -1,4 +1,4 @@
-# Release v0.0.5-alpha.2
+<!-- # Release v0.0.5-alpha.2
 ## 25/06/2021
 ---
 ## Regular
@@ -20,4 +20,15 @@ Added `Dev` class \
 Updated ignore.shwi.sjs 
 
 ---
+[Back to Home](./README.md) -->
+
+# Release v0.0.5-alpha.3
+## 25/06/2021
+---
+## Regular
+Added Generating Integer Array \
+Added generating odd int array \
+Added generating even int array \
+Updated `index` to fix moving files into folders
+
 [Back to Home](./README.md)

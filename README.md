@@ -1,4 +1,4 @@
-# shwi-js @0.0.5-alpha.2
+# shwi-js @0.0.5-alpha.3
 
 All updates and documentation on the [Wiki](https://github.com/Shwibi/shwi-js/wiki). Please refer to the wiki for latest updated docs. \
 [Release Notes](./ReleaseNotes.md)
@@ -23,7 +23,7 @@ Just require the shwi js module, and get to coding!
 
 ## Feature list
 
-Latest feature update: `0.0.5-alpha.1`
+Latest feature update: `0.0.5-alpha.3`
 
 **Please refer to the [Docs(wiki)](https://github.com/Shwibi/shwi-js/wiki) for proper documentation and updates** \
 [Main Class](#main-class) \
@@ -32,7 +32,10 @@ Latest feature update: `0.0.5-alpha.1`
 [Stack](https://github.com/Shwibi/shwi-js/wiki/Stack) \
 [Colors](https://github.com/Shwibi/shwi-js/wiki/Colors) \
 [Parser](https://github.com/Shwibi/shwi-js/wiki/Parser) \
-[Tank](https://github.com/Shwibi/shwi-js/wiki/Tank)
+[Tank](https://github.com/Shwibi/shwi-js/wiki/Tank) \
+Random Integer Generators `NEW` \
+Kill Function \
+Countdown with elapsed time, remaining time (call function) 
 ## Main class
 
 ```js

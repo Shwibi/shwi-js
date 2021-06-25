@@ -1,5 +1,5 @@
-const Err = require("../Utils/Err");
-const IsInteger = require("./Checks/IsInteger");
+const Err = require("../../Utils/Err");
+const IsInteger = require("../Checks/IsInteger");
 
 /**
  * Get a random integer between two integers!

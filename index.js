@@ -7,7 +7,10 @@ const Err = require("./Utils/Err");
 const Stack = require("./Stack/Stack");
 
 const Random = require("./Functions/Random");
-const RandomInt = require("./Functions/RandomInt");
+const RandomInt = require("./Functions/Generator/RandomInt");
+const GenIntArray = require("./Functions/Generator/GenIntArray");
+const GenOddIntArray = require("./Functions/Generator/GenOddIntArray");
+const GenEvenIntArray = require("./Functions/Generator/GenEvenIntArray");
 
 const IsInteger = require("./Functions/Checks/IsInteger");
 const IsOdd = require("./Functions/Checks/IsOdd");
@@ -45,5 +48,8 @@ module.exports = {
 	ReservedWordsArray,
 	SqueezeString,
 	Kill,
-	Countdown
+	Countdown,
+	GenIntArray,
+	GenEvenIntArray,
+	GenOddIntArray
 };
