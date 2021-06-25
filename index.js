@@ -17,10 +17,12 @@ const SqueezeString = require("./Functions/SqueezeString");
 const RemoveReservedCharacters = require("./Functions/RemoveReservedCharacters");
 const Log = require("./Functions/Log");
 const Kill = require("./Functions/Kill");
+const Countdown = require("./Functions/Countdown");
 
 const ColorProps = require("./Props/Colors");
 const ReservedCharacters = require("./Props/ReservedCharacters");
 const ReservedWordsArray = require("./Props/ReservedWords");
+
 
 module.exports = {
 	Main,
@@ -42,5 +44,6 @@ module.exports = {
 	ReservedCharacters,
 	ReservedWordsArray,
 	SqueezeString,
-	Kill
+	Kill,
+	Countdown
 };
