@@ -47,9 +47,11 @@ class Main {
 	/**
 	 * Raw log function (x1) Logs using custom subset of logs [name/your_subset_here]: ...data
 	 * @param {String} name_subset Subset of the name you want to log with
-	 * @param  {...any} args Data
+	 * @param  {Array} args Data
+	 * @param {String} color Color
 	 */
-	RawLog({name_subset, color = "yellow", args}) {
+	RawLog(details = { name_subset: "", color: "yellow", args: [] }) {
+		const { name_subset, color, args } = details;
 		args = args ?? [""];
 		console.log(Colors.colorize(`[${this.name}/${name_subset}]:`, color, "Bright"), ...args);
 	}
