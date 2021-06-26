@@ -4,6 +4,8 @@ const IsInteger = require("./Checks/IsInteger");
 /**
  * Countdown for a set time and call a function for each second!
  * @param {Number} timeInSeconds Time in seconds to countdown for
+ * @param {Function} functionToDo Function to be called every second
+ * @param {Function} doSomethingAfter Function to be called after the entire time
  */
 function Countdown(timeInSeconds = 5, functionToDo = (err = Err, elapsed = Number, remaining = Number) => { }, doSomethingAfter = () => { }) {
   if (!IsInteger(timeInSeconds)) return functionToDo(new Err("Time in seconds must be an integer!", "INV_NUM", { timeInSeconds }))
