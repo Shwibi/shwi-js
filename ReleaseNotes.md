@@ -22,7 +22,7 @@ Updated ignore.shwi.sjs
 ---
 [Back to Home](./README.md) -->
 
-# Release v0.0.5-alpha.3
+<!-- # Release v0.0.5-alpha.3
 ## 25/06/2021
 ---
 ## Regular
@@ -34,4 +34,12 @@ Updated `index` to fix moving files into folders
 ## Docs
 Created Countdown documentation
 
-[Back to Home](./README.md)
+[Back to Home](./README.md) -->
+
+# Release v0.0.5-beta.2
+## 25/06/2021
+---
+## Regular
+Fixed Tank set and get methods, previously they were being upper cased.
+
+[Back to Home](https://github.com/Shwibi/shwi-js)

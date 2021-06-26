@@ -1,4 +1,4 @@
-# shwi-js @0.0.5-beta
+# shwi-js @0.0.5-beta.2
 
 All updates and documentation on the [Wiki](https://github.com/Shwibi/shwi-js/wiki). Please refer to the wiki for latest updated docs. \
 [Release Notes](./ReleaseNotes.md)
@@ -23,7 +23,7 @@ Just require the shwi js module, and get to coding!
 
 ## Feature list
 
-Latest feature update: `0.0.5-beta`
+Latest feature update: `0.0.5-beta.2`
 
 **Please refer to the [Docs(wiki)](https://github.com/Shwibi/shwi-js/wiki) for proper documentation and updates** \
 [Main Class](#main-class) \
