@@ -8,7 +8,6 @@ class Err extends Main {
 	 * Create a new error
 	 * @param {String} message The message of error
 	 * @param {String} code Error code (optional)
-	 * @param {Object} details Other error details
 	 */
 	constructor(
 		message = "An Unknown Error occurred!",
