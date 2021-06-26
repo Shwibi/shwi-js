@@ -34,7 +34,7 @@ class Tank extends Main {
    * @param {any} value Value of the key
    */
   set(key, value) {
-    key = RemoveReservedCharacters(key);
+    key = RemoveReservedCharacters(key).toLowerCase();
     this.cell[key] = value;
   }
 
@@ -44,7 +44,7 @@ class Tank extends Main {
    * @returns {any} Element value
    */
   get(key) {
-    return this.cell[key];
+    return this.cell[key.toLowerCase()];
   }
 
   /**
