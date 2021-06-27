@@ -26,6 +26,7 @@ const ColorProps = require("./Props/Colors");
 const ReservedCharacters = require("./Props/ReservedCharacters");
 const ReservedWordsArray = require("./Props/ReservedWords");
 
+const Physics = require("./Sandbox/physics/Physics");
 
 module.exports = {
 	Main,
@@ -51,5 +52,6 @@ module.exports = {
 	Countdown,
 	GenIntArray,
 	GenEvenIntArray,
-	GenOddIntArray
+	GenOddIntArray,
+	Physics,
 };
