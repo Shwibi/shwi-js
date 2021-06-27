@@ -1,7 +1,8 @@
-# shwi-js @0.0.5-beta.2
+# shwi-js @1.0.0
 
 All updates and documentation on the [Wiki](https://github.com/Shwibi/shwi-js/wiki). Please refer to the wiki for latest updated docs. \
-[Release Notes](./ReleaseNotes.md)
+[Release Notes](./ReleaseNotes.md) \
+Feel free to open an [Issue](https://github.com/Shwibi/shwi-js/issues) if you find anything wrong in the module! Or open a new [Discussion](https://github.com/Shwibi/shwi-js/discussions) if you have any suggestions, or just want to give a feedback!
 
 ## Installation
 
@@ -23,7 +24,7 @@ Just require the shwi js module, and get to coding!
 
 ## Feature list
 
-Latest feature update: `0.0.5-beta.2`
+Latest feature update: `1.0.0`
 
 **Please refer to the [Docs(wiki)](https://github.com/Shwibi/shwi-js/wiki) for proper documentation and updates** \
 [Main Class](#main-class) \
@@ -35,7 +36,9 @@ Latest feature update: `0.0.5-beta.2`
 [Tank](https://github.com/Shwibi/shwi-js/wiki/Tank) \
 Random Integer Generators \
 Kill Function \
-[Countdown](https://github.com/Shwibi/shwi-js/wiki/Countdown)
+[Countdown](https://github.com/Shwibi/shwi-js/wiki/Countdown) \
+Physics
+
 ## Main class
 
 ```js
