@@ -1,4 +1,4 @@
-# shwi-js @1.0.0
+# shwi-js @1.1.1
 
 All updates and documentation on the [Wiki](https://github.com/Shwibi/shwi-js/wiki). Please refer to the wiki for latest updated docs. \
 [Release Notes](./ReleaseNotes.md) \
@@ -24,7 +24,7 @@ Just require the shwi js module, and get to coding!
 
 ## Feature list
 
-Latest feature update: `1.0.0`
+Latest feature update: `1.1.1`
 
 **Please refer to the [Docs(wiki)](https://github.com/Shwibi/shwi-js/wiki) for proper documentation and updates** \
 [Main Class](#main-class) \
@@ -37,7 +37,7 @@ Latest feature update: `1.0.0`
 Random Integer Generators \
 Kill Function \
 [Countdown](https://github.com/Shwibi/shwi-js/wiki/Countdown) \
-Physics
+[Physics](https://github.com/Shwibi/shwi-js/wiki/Physics)
 
 ## Main class
 

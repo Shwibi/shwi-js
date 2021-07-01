@@ -92,7 +92,7 @@ Uhh, something blah blah dev vroom vroom. TODO: Add gibberish here that makes it
 
 RELEASED `v1.0.0`!!! -->
 
-# Release v1.1.0
+# Release v1.1.0 / v1.1.1
 
 ## 01/07/2021
 
