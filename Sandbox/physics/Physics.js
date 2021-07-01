@@ -5,7 +5,10 @@ const Main = require("../../Utils/Main");
 
 // v0.0.6-alpha.1
 
-// Position
+/**
+ * Position
+ * @deprecated Use `shwijs#Vector` instead
+ */
 class Position {
 	/**
 	 * Create a new position (vector)
@@ -52,6 +55,10 @@ class Position {
 
 // Angle
 const ALLOWED_UNITS = ["rad", "deg"];
+/**
+ * Angle
+ * @deprecated Use `shwijs#Angle` instead
+ */
 class Angle {
 	/**
 	 * Create a new angle
@@ -102,7 +109,10 @@ class Angle {
 }
 
 // Engine
-
+/**
+ * Physics Engine
+ * @deprecated Removed
+ */
 class Physics extends Main {
 	/**
 	 * Create a new physics engine
@@ -145,7 +155,10 @@ class Physics extends Main {
 }
 
 // Physics body
-
+/**
+ * Physics body
+ * @deprecated Use `shwijs#PhysicsBody` instead
+ */
 class PhysicsBody {
 	/**
 	 * Create a new physics body. The engine is REQUIRED, otherwise your bodies will not be able to interact in the future.

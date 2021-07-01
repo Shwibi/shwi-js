@@ -6,6 +6,10 @@ const Err = require("./Utils/Err");
 
 const Stack = require("./Stack/Stack");
 
+const Vector = require("./Physics/Vector");
+const Angle = require("./Physics/Angle");
+const PhysicsBody = require("./Physics/PhysicsBody");
+
 const Random = require("./Functions/Random");
 const RandomInt = require("./Functions/Generator/RandomInt");
 const GenIntArray = require("./Functions/Generator/GenIntArray");
@@ -26,6 +30,9 @@ const ColorProps = require("./Props/Colors");
 const ReservedCharacters = require("./Props/ReservedCharacters");
 const ReservedWordsArray = require("./Props/ReservedWords");
 
+/**
+ * @deprecated
+ */
 const Physics = require("./Sandbox/physics/Physics");
 
 module.exports = {
@@ -54,4 +61,7 @@ module.exports = {
 	GenEvenIntArray,
 	GenOddIntArray,
 	Physics,
+	Vector,
+	Angle,
+	PhysicsBody,
 };

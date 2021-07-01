@@ -59,7 +59,7 @@ Unusable unless downloaded from github.
 
 [Back to Home](https://github.com/Shwibi/shwi-js) -->
 
-# Release v1.0.0
+<!-- # Release v1.0.0
 
 ## 27/06/21
 
@@ -90,6 +90,23 @@ Uhh, something blah blah dev vroom vroom. TODO: Add gibberish here that makes it
 
 ## Other stuff
 
-RELEASED `v1.0.0`!!!
+RELEASED `v1.0.0`!!! -->
+
+# Release v1.1.0
+
+## 01/07/2021
+
+---
+
+## Regular
+
+Added new [Physics](https://github.com/Shwibi/shwi-js/wiki/Physics) \
+: Vectors \
+: Angles \
+: PhysicsBody
+
+## Docs
+
+Added [Physics](https://github.com/Shwibi/shwi-js/wiki/Physics) documentation.
 
 [Back to Home](https://github.com/Shwibi/shwi-js)
