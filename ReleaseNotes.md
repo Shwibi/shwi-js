@@ -92,7 +92,7 @@ Uhh, something blah blah dev vroom vroom. TODO: Add gibberish here that makes it
 
 RELEASED `v1.0.0`!!! -->
 
-# Release v1.1.0 / v1.1.1
+<!-- # Release v1.1.0 / v1.1.1
 
 ## 01/07/2021
 
@@ -107,6 +107,16 @@ Added new [Physics](https://github.com/Shwibi/shwi-js/wiki/Physics) \
 
 ## Docs
 
-Added [Physics](https://github.com/Shwibi/shwi-js/wiki/Physics) documentation.
+Added [Physics](https://github.com/Shwibi/shwi-js/wiki/Physics) documentation. -->
+
+# Release v1.1.2
+
+## 30/07/2021
+
+---
+
+## Bug fixes
+
+Fixed Vector not working, fatal error.
 
 [Back to Home](https://github.com/Shwibi/shwi-js)
