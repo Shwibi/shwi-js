@@ -27,7 +27,7 @@ class Vector {
 	/**
 	 * Check if certain x and y coordinates are valid
 	 */
-	static CheckIfValidPos(x = 0, y = 0, callback = (err = new Err()) => {}) {
+	static CheckIfValidPos(x = 0, y = 0, callback = (err = new Err()) => { }) {
 		if (isNaN(x, y))
 			return callback(
 				new Err("Vector of x and y must be integers!", "INV_INT", {
@@ -63,7 +63,7 @@ class Vector {
 			this.x = x;
 			this.y = y;
 		});
-		Vector.AllVectors.push(this);
+		Vector.AllVectors?.push(this);
 	}
 
 	//#region Methods==========================================================================================
