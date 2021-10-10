@@ -2,6 +2,7 @@
 
 const Err = require("../Utils/Err");
 const Angle = require("./Angle");
+const IsNumber = require("../Functions/Checks/IsNumber");
 
 //#endregion IMPORTS==========================================================================================
 
@@ -18,6 +19,9 @@ class Vector {
 		Vector.CheckIfValidPos(x, y, (err) => {
 			if (err) return err.log();
 
+			x = parseFloat(x);
+			y = parseFloat(y);
+
 			Vector.AllVectors.forEach((vector) => {
 				vector.sub(new Vector(x, y).sub(Vector.ORIGIN));
 			});
@@ -27,8 +31,8 @@ class Vector {
 	/**
 	 * Check if certain x and y coordinates are valid
 	 */
-	static CheckIfValidPos(x = 0, y = 0, callback = (err = new Err()) => { }) {
-		if (isNaN(x, y))
+	static CheckIfValidPos(x = 0, y = 0, callback = (err = new Err()) => {}) {
+		if (!IsNumber(x, y))
 			return callback(
 				new Err("Vector of x and y must be integers!", "INV_INT", {
 					x,

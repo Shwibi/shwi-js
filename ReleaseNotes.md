@@ -109,7 +109,7 @@ Added new [Physics](https://github.com/Shwibi/shwi-js/wiki/Physics) \
 
 Added [Physics](https://github.com/Shwibi/shwi-js/wiki/Physics) documentation. -->
 
-# Release v1.1.2
+<!-- # Release v1.1.2
 
 ## 30/07/2021
 
@@ -117,6 +117,20 @@ Added [Physics](https://github.com/Shwibi/shwi-js/wiki/Physics) documentation. -
 
 ## Bug fixes
 
-Fixed Vector not working, fatal error.
+Fixed Vector not working, fatal error. -->
+
+# Release v1.1.3-beta.1
+
+## 02/10/2021
+
+---
+
+## Additions
+
+Added `Clock` and `Timer` \
+: Convert milliseconds to hh:mm:ss:ms
+: Fast converter from ms to time
+: Timers within clocks
+: Get relativity with awesomeness
 
 [Back to Home](https://github.com/Shwibi/shwi-js)

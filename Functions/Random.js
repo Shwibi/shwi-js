@@ -4,6 +4,10 @@
  * Passing no item just sends back a random float between 0-1
  * @param  {...any} items All the items to be entered into random
  * @returns {any} Randomised item
+ * @example Random("good", "bad", {
+ * 	__item: "ugly",
+ * 	__pools: 5
+ * })
  */
 function Random(...items) {
 	// __item = item
@@ -19,7 +23,13 @@ function Random(...items) {
 		// If item is object, use that
 		if (item instanceof Object && item.__item) {
 			if (!isNaN(item.__pools)) {
-				totalItems += item.__pools < 0 ? 1 : item.__pools;
+				totalItems += !item.__pools
+					? 1
+					: isNaN(item.__pools)
+					? 1
+					: item.__pools < 0
+					? 1
+					: item.__pools;
 			} else totalItems++;
 
 			item.__pool_low = poolLowerLimit;

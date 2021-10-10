@@ -1,6 +1,6 @@
 {
 	"name": "shwi-js",
-	"version": "1.1.2",
+	"version": "1.1.3-beta.1",
 	"description": "A way to make js shwi js with extra modules and better things!",
 	"main": "index.js",
 	"scripts": {

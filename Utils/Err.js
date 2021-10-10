@@ -1,7 +1,9 @@
+const ErrorStack = require("../Stack/ErrorStack");
 const Main = require("./Main");
 
 class Err extends Main {
 	static LogByDefault = true;
+	static PushToStackByDefault = true;
 	static ErrorCount = 0;
 
 	/**
@@ -12,7 +14,10 @@ class Err extends Main {
 	constructor(
 		message = "An Unknown Error occurred!",
 		code = "ERR",
-		details = { dont_log: !Err.LogByDefault }
+		details = {
+			dont_log: !Err.LogByDefault,
+			push_to_stack: Err.PushToStackByDefault,
+		}
 	) {
 		super("Error", code);
 
@@ -43,7 +48,10 @@ class Err extends Main {
 		};
 
 		// Log error if allowed
-		if (Err.LogByDefault && !this.details.dont_log) return this.log();
+		if (Err.LogByDefault && !this.details.dont_log) this.log();
+
+		// Push to stack if allowed
+		if (details.push_to_stack) ErrorStack.push(this);
 	}
 
 	/**

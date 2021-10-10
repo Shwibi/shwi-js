@@ -15,7 +15,7 @@ class Stack extends Main {
 
 	/**
 	 * Push an item to the top of the stack
-	 * @param {this.expectedItems} item The item to push to the top of the stack
+	 * @param this.expectedItems item The item to push to the top of the stack
 	 */
 	push(item) {
 		// Increment the top variable so the item will be at the new top
@@ -32,6 +32,7 @@ class Stack extends Main {
 		// Store the top item which will be deleted later, then return it
 		let storedTopItem = this.topItem;
 		this.items[this.top] = null;
+		this.top = this.top - 1;
 		return storedTopItem;
 	}
 
@@ -43,7 +44,7 @@ class Stack extends Main {
 	 */
 	item(index = this.top, item = false, returnItemType = 2) {
 		// Check validity
-		//TODO: Add number check utilities
+
 		if (
 			isNaN(index) ||
 			index > this.top ||
@@ -59,7 +60,7 @@ class Stack extends Main {
 			// Check validity of item
 			let itemCanBePushed = false;
 			this.expectedItems.forEach((expectedItem) => {
-				if (item instanceof expectedItem || expectedItem == "any")
+				if (expectedItem == "any" || item instanceof expectedItem)
 					itemCanBePushed = true;
 			});
 			if (!itemCanBePushed) return;
