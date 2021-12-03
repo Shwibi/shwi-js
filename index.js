@@ -18,6 +18,7 @@ const GenIntArray = require("./Functions/Generator/GenIntArray");
 const GenOddIntArray = require("./Functions/Generator/GenOddIntArray");
 const GenEvenIntArray = require("./Functions/Generator/GenEvenIntArray");
 const MSToTime = require("./Functions/MSToTime");
+const jsonify = require("./Functions/Jsonify");
 
 const IsInteger = require("./Functions/Checks/IsInteger");
 const IsOdd = require("./Functions/Checks/IsOdd");
@@ -42,54 +43,56 @@ const Item = require("./Props/Item");
 const Physics = require("./Sandbox/physics/Physics");
 
 module.exports = {
-	Main,
-	Err,
+  Main,
+  Err,
 
-	Clock,
-	Timer,
+  Clock,
+  Timer,
 
-	Random,
+  Random,
 
-	Stack,
-	ErrorStack,
+  Stack,
+  ErrorStack,
 
-	RandomInt,
+  RandomInt,
 
-	IsInteger,
-	IsOdd,
-	IsEven,
-	IsNumber,
+  jsonify,
 
-	Log,
+  IsInteger,
+  IsOdd,
+  IsEven,
+  IsNumber,
 
-	Colors: ColorProps.Colors,
-	Colorize: ColorProps.colorize,
+  Log,
 
-	Sandbox: {
-		parser: require("./Sandbox/storageParser"),
-	},
+  Colors: ColorProps.Colors,
+  Colorize: ColorProps.colorize,
 
-	Tank,
+  Sandbox: {
+    parser: require("./Sandbox/storageParser"),
+  },
 
-	RemoveReservedCharacters,
-	ReservedCharacters,
-	ReservedWordsArray,
-	SqueezeString,
-	Kill,
+  Tank,
 
-	Countdown,
-	Count,
+  RemoveReservedCharacters,
+  ReservedCharacters,
+  ReservedWordsArray,
+  SqueezeString,
+  Kill,
 
-	GenIntArray,
-	GenEvenIntArray,
-	GenOddIntArray,
+  Countdown,
+  Count,
 
-	MSToTime,
+  GenIntArray,
+  GenEvenIntArray,
+  GenOddIntArray,
 
-	Physics,
-	Vector,
-	Angle,
-	PhysicsBody,
+  MSToTime,
 
-	Item,
+  Physics,
+  Vector,
+  Angle,
+  PhysicsBody,
+
+  Item,
 };
