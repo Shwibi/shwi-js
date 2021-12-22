@@ -6,7 +6,6 @@ const Err = require("./Utils/Err");
 const { Clock, Timer } = require("./Utils/Clock");
 
 const Stack = require("./Stack/Stack");
-const ErrorStack = require("./Stack/ErrorStack");
 
 const Vector = require("./Physics/Vector");
 const Angle = require("./Physics/Angle");
