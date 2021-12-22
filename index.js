@@ -51,7 +51,6 @@ module.exports = {
   Random,
 
   Stack,
-  ErrorStack,
 
   RandomInt,
 
