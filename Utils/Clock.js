@@ -21,6 +21,14 @@ class Timer {
 
 class Clock {
   static TimeDataTemp = { seconds: 0, minutes: 0, hours: 0, days: 0 };
+
+  /**
+   *
+   * @deprecated Use {@link Clock.msToNormal} instead
+   * @param {Number} duration
+   * @param {Boolean} isSec
+   * @returns {String}
+   */
   static msToTime(duration, isSec) {
     let ms = isSec ? duration * 1e3 : duration,
       lm = ~(4 * !!isSec) /* limit fraction */,
@@ -130,7 +138,7 @@ class Clock {
   constructor() {
     this.startAt = new Date();
     this.startAtTimestamp = Date.now();
-    this.timer = new Timer().end();
+    this.timer = new Timer();
   }
 
   get time() {

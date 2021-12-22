@@ -118,7 +118,7 @@ Added [Physics](https://github.com/Shwibi/shwi-js/wiki/Physics) documentation. -
 ## Bug fixes
 
 Fixed Vector not working, fatal error. -->
-
+<!--
 # Release v1.1.3-beta.1
 
 ## 02/10/2021
@@ -132,5 +132,26 @@ Added `Clock` and `Timer` \
 : Fast converter from ms to time
 : Timers within clocks
 : Get relativity with awesomeness
+
+[Back to Home](https://github.com/Shwibi/shwi-js) -->
+
+# Release v1.1.3-beta.2
+
+## 22/12/2021
+
+---
+
+## Removals
+
+: Removed Error stack \
+: Removed Err pushing to error stack
+
+## Additions
+
+: none
+
+## Changes
+
+: Clock timers
 
 [Back to Home](https://github.com/Shwibi/shwi-js)

@@ -1,4 +1,4 @@
-# shwi-js @1.1.3-beta.1
+# shwi-js @1.1.3-beta.2
 
 All updates and documentation on the [Wiki](https://github.com/Shwibi/shwi-js/wiki). Please refer to the wiki for latest updated docs. \
 [Release Notes](./ReleaseNotes.md) \
@@ -24,7 +24,7 @@ Just require the shwi js module, and get to coding!
 
 ## Feature list
 
-Latest feature update: `1.1.1`
+Latest feature update: `1.1.3-beta.2`
 
 **Please refer to the [Docs(wiki)](https://github.com/Shwibi/shwi-js/wiki) for proper documentation and updates** \
 [Main Class](#main-class) \
@@ -37,17 +37,18 @@ Latest feature update: `1.1.1`
 Random Integer Generators \
 Kill Function \
 [Countdown](https://github.com/Shwibi/shwi-js/wiki/Countdown) \
-[Physics](https://github.com/Shwibi/shwi-js/wiki/Physics)
+[Physics](https://github.com/Shwibi/shwi-js/wiki/Physics) \
+Clock
 
 ## Main class
 
 ```js
 const shwijs = require("shwi-js");
 class MyClass extends shwijs.Main {
-	constructor() {
-		super("MyClass");
-		this.Log("Hello!");
-	}
+  constructor() {
+    super("MyClass");
+    this.Log("Hello!");
+  }
 }
 const myClassInstance = new MyClass();
 // Logs [Node/your_project_name/MyClass]: Hello to the console
@@ -61,16 +62,16 @@ You can also pass in multiple names for the class `super()` function, if you're 
 ```js
 const shwijs = require("shwi-js");
 class MyClass extends shwijs.Main {
-	constructor(name) {
-		super("MyClass", name);
-	}
+  constructor(name) {
+    super("MyClass", name);
+  }
 }
 const myClassInstance = new MyClass();
 class MyClassSubset extends MyClass {
-	constructor() {
-		super("SubsetA");
-		this.Log("Hello!");
-	}
+  constructor() {
+    super("SubsetA");
+    this.Log("Hello!");
+  }
 }
 const myClassSubsetInstance = new MyClassSubset();
 // Logs [Node/app_name/MyClass/SubsetA]: Hello! to the console
